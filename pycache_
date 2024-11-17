@@ -1,0 +1,16 @@
+
+### 3. **Creating a GitHub Repository:**
+
+1. **Create a New Repository:**
+   Go to GitHub and create a new repository, for example, `simple-ai-chatbot`.
+
+2. **Push Your Local Project to GitHub:**
+   Once you have the files above set up locally, navigate to your project folder and initialize a Git repository.
+
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit of simple AI chatbot"
+   git branch -M main
+   git remote add origin https://github.com/yourusername/simple-ai-chatbot.git
+   git push -u origin main
